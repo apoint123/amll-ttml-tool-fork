@@ -1,4 +1,4 @@
-const DELAY = 0.05; // 50ms
+const DELAY = 0; // 50ms
 
 class AudioEngine extends EventTarget {
 	private _ctx: AudioContext | null = null;
