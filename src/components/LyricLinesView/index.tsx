@@ -17,7 +17,7 @@ import {
 	toolModeAtom,
 } from "$/states/main.ts";
 import { Box, Flex, Text } from "@radix-ui/themes";
-import { atom, useAtomValue, useStore } from "jotai";
+import { atom, useAtomValue } from "jotai";
 import { useSetImmerAtom } from "jotai-immer";
 import { focusAtom } from "jotai-optics";
 import { splitAtom } from "jotai/utils";
